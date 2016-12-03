@@ -1,0 +1,34 @@
+{
+  "name": "express-react-webpack-boilerplate",
+  "version": "1.0.0",
+  "description": "Fast way to stort your application",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.14.0",
+    "react": "^15.3.1",
+    "react-dom": "^15.3.1",
+    "webpack": "^1.13.3",
+    "webpack-dev-server": "^1.15.1",
+    "webpack-hot-middleware": "^2.13.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.14.0",
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.14.0",
+    "babel-preset-react": "^6.16.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "node server/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bognix/express-react-webpack-boilerplate.git"
+  },
+  "author": "Bogna 'bognix' Knychala",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bognix/express-react-webpack-boilerplate/issues"
+  },
+  "homepage": "https://github.com/bognix/express-react-webpack-boilerplate#readme"
+}
